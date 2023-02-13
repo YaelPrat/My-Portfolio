@@ -9,9 +9,9 @@ import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 })
 export class CarouselComponent {
   images = [
-    {title: 'First Slide', short: 'First Slide Short', src: "/assets/tree.jpg"},
-    {title: 'Second Slide', short: 'Second Slide Short', src: "/assets/sunflower.jpg"},
-    {title: 'Third Slide', short: 'Third Slide Short', src: "/assets/iconCatBig.png"}
+    {title: 'First Slide', short: 'First Slide Short', src: "/assets/tree.jpg" ,link: "https://finalproject-baec3.firebaseapp.com/"},
+    {title: 'Personal Traning App', short: 'Stack: Angular, firebase', src: "/assets/personalTScreenShot.jpg",link: "https://finalproject-baec3.firebaseapp.com/"},
+    // {title: 'Third Slide', short: 'Third Slide Short', src: "/assets/iconCatBig.png"}
   ];
 
   constructor(config: NgbCarouselConfig) {
