@@ -16,45 +16,6 @@
     object-fit: contain;
   }
 
-
-/* .ngb-carousel .carousel-control-next {
-width: 30px;
-height: 30px;
-background-color: #4223ce;
-padding: 10px;
-} */
-/* .carousel-control-prev-icon,
-.carousel-control-next-icon {
-  height: 100px;
-  width: 100px;
-  outline: black;
-  background-size: 100%, 100%;
-  border-radius: 50%;
-  border: 1px solid black;
-  background-image: none;
-  
-}
-
-
-.ngb-carousel .ngb-slides-container .ngb-slide {
-    background-color: transparent;
-  }
-  
-
-  
-  .carousel-control-prev, .carousel-control-next {
-    width: 30px;
-    height: 30px;
-    background: rgb(56, 122, 188);
-    color: #aea7a7;
-    top: 50%;
-    transform: translateY(-50%);
-    border-radius: 50%;
-  }
-  
-  .carousel-control-prev i, .carousel-control-next i {
-    font-size: 30px;
-  } */
   
   .divCarousel{
     border: 5px rgb(227, 237, 247) solid; 
@@ -62,6 +23,6 @@ padding: 10px;
   }
   
   ::ng-deep .carousel-control-prev-icon, ::ng-deep .carousel-control-next-icon {
-    filter: invert(100%); /* invert the color of the arrow icon */
+    filter: invert(100%);
   }
   
