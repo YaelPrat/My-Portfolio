@@ -1,5 +1,5 @@
 <div class="container-fluid divCarousel">     
-    <ngb-carousel>
+    <ngb-carousel [showNavigationIndicators]="false">
       <ng-template ngbSlide *ngFor="let image of images">
         <div class="wrapper">
           <img [src]="image.src" alt="Random first slide">
@@ -7,7 +7,7 @@
         <div class="carousel-caption">
           <h3>{{ image.title }}</h3>
           <p>{{ image.short }}</p>
-          <a>{{image.link}}</a>
+          <a href="{{image.link}}">Link to the project</a>
         </div>
       </ng-template>
     </ngb-carousel>    

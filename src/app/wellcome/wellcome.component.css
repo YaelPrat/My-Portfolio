@@ -15,3 +15,14 @@ h1, h2{
 .my-component {
     font-family: 'MyFont';
 }
+@media screen and (max-width: 768px) {
+    footer {
+      font-size: 12px;
+    }
+    h1{
+      font-size: 20px;
+    }
+    h2{
+        font-size: 14px;
+    }
+  }

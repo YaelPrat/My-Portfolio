@@ -8,6 +8,7 @@ import { WellcomeComponent } from './wellcome/wellcome.component';
 
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { CarouselComponent } from './carousel/carousel.component';
+
 @NgModule({
   declarations: [
     AppComponent,

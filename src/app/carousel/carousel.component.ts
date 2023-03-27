@@ -8,7 +8,7 @@ import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 })
 export class CarouselComponent {
   images = [
-    {title: 'Personal Traning App', short: 'Stack: Angular, firebase', src: "/assets/personalTScreenShot.jpg",link: "https://finalproject-baec3.firebaseapp.com/"},
+    {title: 'Personal Traning App', short: 'Stack: Angular, firebase', src: "/assets/calender1.png",link: "https://finalproject-baec3.firebaseapp.com/"},
     {title: 'Face filter', short: 'Python app, using Dlib 68 points facial landmarks', src: "/assets/gefilterFish.jpg" ,link: "https://github.com/YaelPrat/GefilterFish"}
     
     // {title: 'Third Slide', short: 'Third Slide Short', src: "/assets/iconCatBig.png"}
