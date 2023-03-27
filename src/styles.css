@@ -4,3 +4,14 @@
 /* @import "./styles/ng-bootstrap.css"; */
 @import "https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css";
  
+body {
+    background-image: url('src/assets/liquid-cheese.svg');
+    background-size: cover; /* or contain, depending on how you want the image to be scaled */
+    background-position: center center; 
+    height: 100vh;
+  }
+
+  @font-face {
+    font-family: 'MyFont';
+    src: url('/assets/JosefinSans-VariableFont_wght.ttf');
+  }

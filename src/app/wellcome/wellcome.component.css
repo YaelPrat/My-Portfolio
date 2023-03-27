@@ -8,7 +8,10 @@ div{
 }
 
 h1, h2{
-    color: rgb(56, 122, 188);
+    color: rgb(14, 4, 70);
     margin: auto;
     padding: 5px;
+}
+.my-component {
+    font-family: 'MyFont';
 }

@@ -1,13 +1,14 @@
 .carousel-caption {
     background-color: rgba(255, 255, 255, 0.5);
     bottom: 0;
-    color: rgb(56, 122, 188);
+    color: rgb(14, 4, 70);
     padding: 10px;
     position: sticky;
+    /* font-family: 'MyFont'; */
   }
   
   .picsum-img-wrapper {
-    height: 500px;
+    height: 100%;
   }
   
   img {
@@ -18,8 +19,9 @@
 
   
   .divCarousel{
-    border: 5px rgb(227, 237, 247) solid; 
-     border-radius: 5px;
+    border: 5px rgb(226, 239, 250) solid; 
+    border-radius: 5px;
+    /* height: 100%; */
   }
   
   ::ng-deep .carousel-control-prev-icon, ::ng-deep .carousel-control-next-icon {
