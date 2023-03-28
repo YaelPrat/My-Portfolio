@@ -38,3 +38,7 @@
     }
   }
 
+  .icon-display {
+    transform: scale(0.9);
+    vertical-align: bottom;
+ }

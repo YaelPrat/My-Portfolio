@@ -9,6 +9,8 @@ import { WellcomeComponent } from './wellcome/wellcome.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { CarouselComponent } from './carousel/carousel.component';
 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatIconModule } from '@angular/material/icon';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +20,9 @@ import { CarouselComponent } from './carousel/carousel.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    BrowserAnimationsModule,
+    MatIconModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
