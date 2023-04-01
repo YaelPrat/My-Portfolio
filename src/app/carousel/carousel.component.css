@@ -37,7 +37,14 @@
       object-fit: contain;
     }
   }
+  @media screen and (max-height: 768px) {
+    img{
+      width: 848px;
+      height: 200px;
+      object-fit: contain;
+    }
 
+  }
   .icon-display {
     transform: scale(0.9);
     vertical-align: bottom;
