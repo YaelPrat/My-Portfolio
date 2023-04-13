@@ -37,11 +37,14 @@
       object-fit: contain;
     }
   }
-  @media screen and (max-height: 768px) {
+  @media screen and (max-height: 915px) {
     img{
-      width: 848px;
-      height: 200px;
+      height: 170px;
       object-fit: contain;
+    
+    }
+    .carousel-caption{
+      width: 100%;
     }
 
   }
